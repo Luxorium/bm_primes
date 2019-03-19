@@ -16,7 +16,7 @@ function run() {
 	scores.push(score);
 }
 console.clear();
-fs.writeFile('results.txt', `Your score is ${median(scores)}! The lower the score, the better. A score of 0 is perfect.`);
+fs.writeFile('results.txt', `Your score is ${Math.round(median(scores))}!`);
 
 function isPrime(n) {
 	if(n === 1) {
