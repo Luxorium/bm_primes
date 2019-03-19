@@ -1,0 +1,15 @@
+{
+  "name": "primes",
+  "version": "1.0.0",
+  "description": "Calculates every prime 0 to 10000, 1000 times!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "benchmark",
+    "primes"
+  ],
+  "author": "Caleb R. Daix",
+  "license": "ISC"
+}
