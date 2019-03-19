@@ -16,7 +16,7 @@ function run() {
 	scores.push(score);
 }
 console.clear();
-fs.writeFile('results.txt', `Your score is ${Math.round(median(scores))}!`);
+fs.writeFile('score.txt', `Your score is ${Math.round(median(scores))}!`);
 
 function isPrime(n) {
 	if(n === 1) {
