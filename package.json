@@ -1,5 +1,5 @@
 {
-  "name": "primes",
+  "name": "bm_primes",
   "version": "1.0.0",
   "description": "Calculates every prime 0 to 10000, 1000 times!",
   "main": "index.js",
