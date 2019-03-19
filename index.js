@@ -1,21 +1,20 @@
 const fs = require('fs');
 var scores = [];
-for(a = 0; a < 1000; a++) {
+for(r = 0; r <= 1000; r++) {
 	console.clear();
-	console.log(`Depending on your device, this may take a while... [${a}/1000]`);
+	console.log(`This may take a while... [${r}/1000]`);
 	run();
 }
 
 function run() {
 	startTime = Date.now();
-	for(b = 0; b < 10000; b++) {
-		isPrime(b);
+	for(i = 0; i <= 10000; i++) {
+		isPrime(i);
 	}
 	endTime = Date.now();
 	score = endTime - startTime;
 	scores.push(score);
 }
-console.clear();
 fs.writeFile('score.txt', `Your score is ${Math.round(median(scores))}!`);
 
 function isPrime(n) {

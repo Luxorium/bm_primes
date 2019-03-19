@@ -1,7 +1,7 @@
 {
   "name": "bm_primes",
   "version": "1.0.0",
-  "description": "Calculates every prime 0 to 10000, 1000 times!",
+  "description": "Calculates every prime 0 to 10,000, 1,000 times (for accuracy).",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

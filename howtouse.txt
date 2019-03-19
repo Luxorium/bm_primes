@@ -1,0 +1,7 @@
+***Be sure that you have Node.js installed! (https://nodejs.org/)***
+
+1.  Open the terminal (or Command Prompt on Windows).
+2.  Navigate to the master folder that the index.js file is in.
+3.  Type "node ." into the console and press enter.
+4.  Wait for the benchmark to run. The time this will take may vary from device to device.
+5.  Look for the "score.txt" file in the same folder as the "index.js" file.
